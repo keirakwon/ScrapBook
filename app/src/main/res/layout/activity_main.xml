@@ -1,0 +1,20 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <FrameLayout
+        android:id="@+id/favoriteMainContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+    <ListView
+        android:id="@+id/favoriteLeftMenu"
+        android:background="#ffffff"
+        android:entries="@array/favoriteMenuArray"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"></ListView>
+
+</android.support.v4.widget.DrawerLayout>

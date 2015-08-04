@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name"> ScrapBook</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="favoriteMenuArray">
+        <item>Music</item>
+        <item>Psychology</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
